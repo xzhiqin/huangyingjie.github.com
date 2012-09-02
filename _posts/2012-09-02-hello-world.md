@@ -5,5 +5,11 @@ description: ""
 category: 
 tags: []
 ---
-你好。
+切换皮肤
+---
+rake theme:switch name="twitter"
+
+启动服务
+---
+jekyll --server
 {% include JB/setup %}
